@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Final Project</string>
+    <string name="title_activity_home_page">HomePageActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="voice_input">Speak Destination</string>
+    <string name="google_maps_key">AIzaSyDFpNSw2p3M6QkmAK9I4-uzTEHehgaOYCA</string>
+</resources>

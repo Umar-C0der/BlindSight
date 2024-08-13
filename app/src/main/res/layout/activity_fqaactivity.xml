@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".FQAActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="FAQ Section"
+        android:layout_gravity="center_horizontal"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:layout_marginTop="20dp"/>
+
+
+    <ScrollView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="1. What devices are compatible with Blindsight?"
+                android:layout_gravity="left"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:justificationMode="inter_word"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Currently, Blindsight is compatible with smartphones running Android operating systems, equipped with cameras capable of capturing high-quality images."
+                android:layout_gravity="left"
+                android:textSize="20dp"
+                android:layout_margin="10dp"
+                android:justificationMode="inter_word"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="10dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="2. Can BlindSight be used indoors?"
+                android:layout_gravity="left"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:justificationMode="inter_word"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Currently, Blindsight primarily focuses on outdoor navigation. While indoor navigation is a future consideration, the app's current functionality is optimized for outdoor environments."
+                android:layout_gravity="left"
+                android:textSize="20dp"
+                android:layout_margin="10dp"
+                android:justificationMode="inter_word"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="10dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="3. How can I provide feedback or report issues with Blindsight?"
+                android:layout_gravity="left"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:justificationMode="inter_word"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Users can provide feedback, report issues, or suggest enhancements through the app's built-in feedback mechanism or by contacting the development team directly via email or social media channels. Your input is invaluable in improving Blindsight for the entire community."
+                android:layout_gravity="left"
+                android:textSize="20dp"
+                android:layout_margin="10dp"
+                android:justificationMode="inter_word"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="10dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="4. Can Blindsight provide navigation assistance in crowded or complex environments?
+"
+                android:layout_gravity="left"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:justificationMode="inter_word"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Blindsight is continually improving its capabilities to navigate challenging environments, including crowded streets and complex intersections. However, users should remain"
+                android:layout_gravity="left"
+                android:textSize="20dp"
+                android:layout_margin="10dp"
+                android:justificationMode="inter_word"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="10dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="5. Does Blindsight require an internet connection to function?
+"
+                android:layout_gravity="left"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:justificationMode="inter_word"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Yes, Blindsight requires an active internet connection to process images and provide real-time assistance. However, efforts are underway to optimize the app for offline functionality in areas with limited connectivity."
+                android:layout_gravity="left"
+                android:textSize="20dp"
+                android:layout_margin="10dp"
+                android:justificationMode="inter_word"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="10dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="6. How accurate is object recognition in Blindsight?"
+                android:layout_gravity="left"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:justificationMode="inter_word"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Object recognition accuracy in Blindsight is continuously improving through machine learning updates and feedback mechanisms. While it strives for high accuracy, users should still exercise caution and use other senses to verify their surroundings."
+                android:layout_gravity="left"
+                android:textSize="20dp"
+                android:layout_margin="10dp"
+                android:justificationMode="inter_word"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="10dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="7. How does Blindsight ensure user privacy and data security?"
+                android:layout_gravity="left"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:justificationMode="inter_word"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="User privacy and data security are paramount in Blindsight. The app adheres to strict privacy protocols, ensuring that user data is encrypted, anonymized, and stored securely. Additionally, users have control over their data and can manage permissions within the app."
+                android:layout_gravity="left"
+                android:textSize="20dp"
+                android:layout_margin="10dp"
+                android:justificationMode="inter_word"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="10dp"/>
+
+        </LinearLayout>
+    </ScrollView>
+
+
+
+
+</LinearLayout>

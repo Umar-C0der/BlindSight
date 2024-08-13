@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/Testimonial"
+        android:orderInCategory="100"
+        android:title="Feedback "
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/FQA"
+        android:orderInCategory="100"
+        android:title="FAQ"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/contactus"
+        android:orderInCategory="100"
+        android:title="Contact Us"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/logout"
+        android:orderInCategory="100"
+        android:title="Log out"
+        android:icon="@drawable/baseline_logout_24"
+        app:showAsAction="always" />
+</menu>
